@@ -1,4 +1,4 @@
-# 🚀 Adaptive Multimodal Anomaly Detection (Photo-Only)
+# 🚀 Adaptive Multimodal Anomaly Detection
 
 This repository contains a self-supervised, multimodal anomaly detection pipeline **currently supporting image input only**. It fuses 📷 visual features and 📍 metadata to flag out-of-distribution images.
 
