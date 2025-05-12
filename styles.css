@@ -1,0 +1,70 @@
+body {
+    background-image: url("static\images\background.jpeg");
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 30px 40px;
+    width: 400px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ffffff30;
+    border-radius: 8px;
+    border: 1px dashed #ccc;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.custom-file-upload input[type="file"] {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6c63ff;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #574b90;
+}
+
+.prediction {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffd166;
+}
+
+img {
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+}
